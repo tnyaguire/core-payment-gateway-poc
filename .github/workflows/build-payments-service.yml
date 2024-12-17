@@ -1,0 +1,15 @@
+name: build-payments-service
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - payments-service/**
+      - commons-api/**
+      - .github/workflows/build-payments-service.yml
+
+jobs:
+  run:
+    uses: ./.github/workflows/service-workflow.yml
+    with:
+      service: payments-service

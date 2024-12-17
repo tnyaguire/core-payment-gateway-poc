@@ -1,0 +1,15 @@
+name: build-clients-service
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - accounts-service/**
+      - commons-api/**
+      - .github/workflows/build-clients-service.yml
+
+jobs:
+  run:
+    uses: ./.github/workflows/service-workflow.yml
+    with:
+      service: clients-service

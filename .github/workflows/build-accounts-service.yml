@@ -1,0 +1,15 @@
+name: build-accounts-service
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - accounts-service/**
+      - commons-api/**
+      - .github/workflows/build-accounts-service.yml
+
+jobs:
+  run:
+    uses: ./.github/workflows/service-workflow.yml
+    with:
+      service: accounts-service
