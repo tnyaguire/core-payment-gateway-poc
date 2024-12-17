@@ -14,7 +14,6 @@
 
     <artifactId>payments-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
     <name>payments-service</name>
     <description>payments-service</description>
 

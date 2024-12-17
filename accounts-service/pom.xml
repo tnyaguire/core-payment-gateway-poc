@@ -13,7 +13,6 @@
 
     <artifactId>accounts-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
     <name>accounts-service</name>
     <description>Accounts Service Module</description>
 
