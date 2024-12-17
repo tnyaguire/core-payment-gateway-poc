@@ -10,6 +10,6 @@ on:
 
 jobs:
   run:
-    uses: ./.github/workflows/service-workflow.yml
+    uses: ./.github/workflows/build-workflow.yml
     with:
       service: clients-service
