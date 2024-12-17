@@ -6,6 +6,7 @@ on:
     paths:
       - payments-service/**
       - commons-api/**
+      - .github/workflows/build-workflow.yml
       - .github/workflows/build-payments-service.yml
 
 jobs:
