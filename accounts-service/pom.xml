@@ -39,6 +39,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>za.co.thebank</groupId>
+            <artifactId>commons-api</artifactId>
+            <version>${commons.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
