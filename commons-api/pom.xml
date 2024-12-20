@@ -11,8 +11,8 @@
     </parent>
     <artifactId>commons-api</artifactId>
     <version>${commons.version}</version>
-    <name>commons</name>
-    <description>commons</description>
+    <name>commons-api</name>
+    <description>commons-api</description>
 
     <dependencies>
         <dependency>
