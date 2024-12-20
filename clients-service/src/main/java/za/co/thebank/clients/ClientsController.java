@@ -11,7 +11,7 @@ public class ClientsController {
 
     @GetMapping("/clients/{id}")
     public String getClientById(@PathVariable String id) {
-        log.info("getClientById");
+        log.info("getClientById....");
         return "Client details for client " + id;
     }
 }
