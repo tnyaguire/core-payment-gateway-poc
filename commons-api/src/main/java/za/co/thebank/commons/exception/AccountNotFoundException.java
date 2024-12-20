@@ -1,4 +1,4 @@
 package za.co.thebank.commons.exception;
 
-public class AccountNotFoundException {
+public class AccountNotFoundException extends RuntimeException {
 }
